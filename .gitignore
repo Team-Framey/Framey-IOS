@@ -1,0 +1,59 @@
+# macOS
+.DS_Store
+
+# Xcode user settings
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# Xcode build artifacts
+DerivedData/
+build/
+*.hmap
+
+# App packaging / debug symbols
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Code coverage
+*.profraw
+*.profdata
+*.xccovreport
+*.xccovarchive
+
+# Signing / certificates / secrets
+*.mobileprovision
+*.provisionprofile
+*.cer
+*.p12
+*.key
+.env
+.env.*
+!.env.example
+GoogleService-Info.plist
+Config/Signing.xcconfig
+
+# Personal notes
+docs/private/

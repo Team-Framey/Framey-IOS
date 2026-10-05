@@ -57,3 +57,8 @@ Config/Signing.xcconfig
 
 # Personal notes
 docs/private/
+
+# Tuist (생성물은 tuist generate로 다시 만든다)
+*.xcodeproj
+*.xcworkspace
+Derived/
